@@ -20,9 +20,9 @@ section {
     max-width: 800px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-h1, h2 {
-    color: rgb(255, 255, 255);
-
+h1 {
+    color: #ffffff;
+    margin: 0;
 }
 a {
     color: #0066cc;
