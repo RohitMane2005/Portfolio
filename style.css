@@ -21,7 +21,8 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 h1, h2 {
-    color: #333;
+    color: rgb(255, 255, 255);
+
 }
 a {
     color: #0066cc;
