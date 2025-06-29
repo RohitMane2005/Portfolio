@@ -8,23 +8,49 @@ body {
 }
 
 /* Header */
+
+/* Abstract SVG shape background */
+.shape-background {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.blob-shape {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 header {
-    background-color: #222;
+    position: relative;
+    background-color: #4b6cb7; /* fallback */
     color: white;
     text-align: center;
-    padding: 30px 15px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 100px 20px 80px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.header-content {
+    position: relative;
+    z-index: 2;
     animation: fadeInDown 1s ease;
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 2.8em;
     margin-bottom: 10px;
 }
 
 header p {
     font-size: 1.2em;
-    color: #bbb;
+    color: #e0e0e0;
 }
 
 /* Main Content */
