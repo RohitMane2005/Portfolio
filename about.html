@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Univercity Website Design</title>
+        <link rel="stylesheet" href="C:\Users\hp\Desktop\eduford_img\style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+         <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="C:\Users\hp\Desktop\eduford_img\logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+       </section>
+
+
+       <!------about us content----->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+        <h1>Aspiring Developer</h1>
+        <p>Hello! I'm Rohit Mane, a passionate and detail-oriented Web Developer with a strong foundation in front-end and back-end technologies. I specialize in creating clean, responsive, and user-friendly websites that deliver seamless user experiences.
+With a deep curiosity for how the web works, I’ve built a variety of projects that demonstrate my skills in HTML, CSS, JavaScript, React, and Java. I’m constantly learning and exploring new tools and frameworks to stay ahead in the fast-paced world of web development.
+Whether it's building dynamic websites, solving coding challenges, or collaborating on real-world applications, I bring a problem-solving mindset and a drive for excellence to every project.
+When I'm not coding, I enjoy exploring tech trends, contributing to open-source, and leveling up my skills through continuous learning.
+Let’s build something amazing together.</p>
+        <h1>Skills</h1>
+            <ul class="skill-list">
+                <li>Java</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>WordPress</li>
+                <li>Elementor</li>
+            </ul>
+            
+        </div>
+    <div class="about-col">
+        <img src="illu2.png">
+    </div>
+    </div>
+</section>
+
+
+
+
+
+ <!------Footer--------->
+ <footer>
+        <p>&copy; 2025 Rohit Mane. All rights reserved.</p>
+    </footer>
+
+
+       
+<!--Javascript-->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+    </body>
+</html>
